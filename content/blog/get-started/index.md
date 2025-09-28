@@ -1,5 +1,5 @@
 ---
-title: 🎉 Presented My First Poster at 2025 RSS Conference
+title: 🎉 Presented my first poster at 2025 RSS Conference
 summary: Presented poster'Bayesian Infused Conformal Prediction' at 2025 RSS (Royal Statistical Society) in Edinburgh
 date: 2025-09-03
 
@@ -20,7 +20,7 @@ content_meta:
   trending: true
 ---
 
- 👋
+ Presented poster'Bayesian Infused Conformal Prediction' at 2025 RSS (Royal Statistical Society) in Edinburgh
 
 {{< toc mobile_only=true is_open=true >}}
 
