@@ -155,7 +155,7 @@ awards:
     url: https://www.gov.uk/guidance/turing-scheme-apply-for-funding-for-international-placements
     date: '2025-01-15'
     awarder: UK Gov
-    icon: hero/currency-pounds
+    icon: hero/currency-dollar
     summary: |
       Fully funded by UK government for international exchange placement to Finland Aalto University in Helsinki. Explore Bayesian integrated Conformal Prediction.
   - title: CVPR Embodied AI Workshop PRS Challenge

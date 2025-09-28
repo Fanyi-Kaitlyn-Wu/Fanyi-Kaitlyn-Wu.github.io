@@ -16,8 +16,8 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2025-06-21 22:43:42 UTC'
-publishDate: '2025-06-21 22:43:42 UTC'
+date: 2025-06-21T22:43:42Z
+publishDate: 2025-06-21T22:43:42Z
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
