@@ -5,11 +5,11 @@ title: THCM-CAL Temporal-Hierarchical Causal Modelling with Conformal Calibratio
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Zhang, Xin 
-  - Wei, Qiyu 
-  - Zhu, Yingjie 
+  - Xin Zhang
+  - Qiyu Wei
+  - Yingjie Zhu
   - admin
-  - Ananiadou, Sophia
+  - Sophia Ananiadou
 
 # Author notes (optional)
 author_notes:
