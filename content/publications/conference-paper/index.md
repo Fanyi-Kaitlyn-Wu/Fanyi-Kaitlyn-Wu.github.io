@@ -1,5 +1,5 @@
 ---
-title: THCM-CAL: Temporal-Hierarchical Causal Modelling with Conformal Calibration for Clinical Risk Prediction
+title: THCM-CAL Temporal-Hierarchical Causal Modelling with Conformal Calibration for Clinical Risk Prediction
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
