@@ -55,14 +55,14 @@ interests:
 
 education:
   - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    institution: University of Manchester
+    date_start: 2024-09-30
+    date_end: 2028-08-30
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
+      UKRI fully funded scholarship in collaboration with the University of Cambridge. Supervised by Dr Michele Caprio and Professor Samuel Kaski on conformal prediction and probabilistic machine learning in collaboration with Google DeepMind.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com/thesis.pdf'
   - area: MS Computer Science
     institution: Carnegie Mellon University
     date_start: 2013-09-01
