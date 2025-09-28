@@ -1,22 +1,25 @@
 ---
-title: 'An example conference paper'
+title: THCM-CAL: Temporal-Hierarchical Causal Modelling with Conformal Calibration for Clinical Risk Prediction
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Zhang, Xin 
+  - and Wei, Qiyu 
+  - Zhu, Yingjie 
   - admin
-  - Robert Ford
+  - Ananiadou, Sophia
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2025-06-2122:43:42 UTC'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2025-06-2122:43:42 UTC'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -24,44 +27,45 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: EMNLP 2025
+publication_short: EMNLP 2025
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Automated clinical risk prediction from electronic health records (EHRs) demands modeling both structured diagnostic codes and unstructured narrative notes. However, most prior approaches either handle these modalities separately or rely on simplistic fusion strategies that ignore the directional, hierarchical causal interactions by which narrative observations precipitate diagnoses and propagate risk across admissions. In this paper, we propose THCM-CAL, a Temporal-Hierarchical Causal Model with Conformal Calibration. Our framework constructs a multimodal causal graph where nodes represent clinical entities from two modalities: Textual propositions extracted from notes and ICD codes mapped to textual descriptions. Through hierarchical causal discovery, THCM-CAL infers three clinically grounded interactions: intra-slice same-modality sequencing, intra-slice cross-modality triggers, and inter-slice risk propagation. To enhance prediction reliability, we extend conformal prediction to multi-label ICD coding, calibrating per-code confidence intervals under complex co-occurrences. Experimental results on MIMIC-III and MIMIC-IV demonstrate the superiority of THCM-CAL.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Large Language Models
+  - Computation and Language 
+  - Artificial Intelligence 
 
 # Display this page in the Featured widget?
-featured: true
+featured: False
 
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: 10.5555/123456
+    doi: 10.48550
 
 # Custom links
 links:
   - type: pdf
     url: ""
-  - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: dataset
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: video
-    url: https://youtube.com
+  # - type: code
+  #   url: https://github.com/HugoBlox/hugo-blox-builder
+  # - type: dataset
+  #   url: https://github.com/HugoBlox/hugo-blox-builder
+  # - type: slides
+  #   url: https://www.slideshare.net/
+  # - type: source
+  #   url: https://github.com/HugoBlox/hugo-blox-builder
+  # - type: video
+  #   url: https://youtube.com
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Overview of THCM-CAL. A four-stage pipeline for clinical risk prediction, which consists of: (1) Extracting diagnostic propositions and normalize ICD descriptions, (2) Embeding nodes with BERT, (3) Building and fuse a temporal–hierarchical causal graph via Gumbel–Softmax and message passing, and (4) Appling split conformal prediction for calibrated multi-label ICD coding.'
   focal_point: ''
   preview_only: false
 
@@ -70,8 +74,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+projects: []
+  # - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -81,10 +85,10 @@ projects:
 slides: ""
 ---
 
-> [!NOTE]
+<!-- > [!NOTE]
 > Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 
 > [!NOTE]
-> Create your slides in Markdown - click the _Slides_ button to check out the example.
+> Create your slides in Markdown - click the _Slides_ button to check out the example. -->
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+<!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
