@@ -127,10 +127,10 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Painting
+      - name: Simply Walking
         description: ''
         percent: 80
-        icon: pen-to-square
+        icon: person-simple-walk
       - name: MOBA Game Player
         description: ''
         percent: 90
