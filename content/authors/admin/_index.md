@@ -39,19 +39,19 @@ profiles:
 #  - icon: brands/x
 #    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/Fanyi-Kaitlyn-Wu
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/fanyi-wu-304353218/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=HYinA9MAAAAJ&hl=en&oi=ao
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Uncertainty Quantification
+  - Conformal Prediction
+  - AI for Science
+  - Machine Learning
 
 education:
   - area: PhD Computer Science (AI Focus)
