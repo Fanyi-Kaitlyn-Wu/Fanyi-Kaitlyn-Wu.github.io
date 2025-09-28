@@ -63,22 +63,30 @@ education:
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+  - area: MPhil Data Intensive Science
+    institution: University of Cambridge
+    date_start: 2023-09-30
+    date_end: 2014-08-31
     summary: |
-      GPA: 4.0/4.0
+      GPA: 3.95/4.0
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+      Thesis: Combinatorial Optimisation – Chaotic Amplitude Control for the Ising Minimisation Using Optical Parametric Oscillator System (Distinction).
+      
+      Relevant Modules: Advanced Research Computing, Application of Machine Learning, Deep Learning and Neural Networks, Statistics for Data Science.
+      
+      Student Representative for the Cohort.
+  - area: BSc Physics
+    institution: Imperial College London
+    date_start: 2020-09-30
+    date_end: 2023-07-31
     summary: |
-      GPA: 3.9/4.0
+      GPA: 3.7/4.0
 
-      Minored in Mathematics. President of AI Club.
+      Relevant modules: Computational and experimental Physics, Mechanics and Relativity, Oscillation and Waves, Electrostatic and Magnetism, Statistics, Advanced Mathematics, Thermal Dynamics and Structure of Matters, Quantum Mechanics, Particle Physics, Solid State Physics, Informational Theory.
+
+      Full marks for individual Python project in Year 1 Practical Physics Module
+
+      Demonstrated good writing, collaborating, organisational and time-management skills through individual lab reports and group assignments. 
 
 work:
   - position: Senior AI Research Scientist
