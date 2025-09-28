@@ -23,21 +23,21 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: PhD Student in Decision Making for Complex Systems CDT
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Manchester
+    url: https://www.linkedin.com/company/ukri-ai-decisions-cdt/posts/?feedView=all
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:fanyi.kaitlyn.wu@outlook.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+#  - icon: brands/x
+#    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
     url: https://github.com/alexjohnsonai
   - icon: brands/linkedin
@@ -166,4 +166,12 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Hello! Welcome! 👋
+
+I am an AI PhD student in Decision Making in Complex Systems CDT led by University of Manchester and University of Cambridge, fully funded by [UK Research and Innovation](https://www.ukri.org/). I am supervised by [Dr Michele Caprio](https://michelecaprio.wixsite.com/caprio) and [Prof Samuel Kaski](https://kaski-lab.com/).
+
+My current research interest is in AI for Science and uncertainty quantification. Specifically, I am studying Conformal Prediction (CP) and its relationship with other fields (such as Baysian infused CP, CP in medical diagonotics, CP in Astrophyics, etc). I enjoy very much on interdisplinary research and developing theoretical extensions on CP.
+
+My previous backgrounds were in Bsc Physics department at [Imperial College London](https://www.imperial.ac.uk/) and MPhil in Data Intensive Science at DAMTP, [University of Cambridge](https://www.cam.ac.uk/). My bachelor thesis was about Single Photon Pairs Generation and Detection supervised [Dr Stefano Vezzoli](https://profiles.imperial.ac.uk/s.vezzoli) in [Complex Nanophotonics Group](https://www.sapienzalab.org/). My master thesis was about Combinatorial Optimisation in Ising Machine Using Optical Parametric Oscillatior System, supervised by [Prof Natalia Berloff](https://www.pi-computing.org/team).
+
+I am also open to industrial experiences and visiting interdisplinary reasearch groups. 
