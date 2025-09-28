@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Fanyi (Kaitlyn) Wu
+title: Fanyi Kaitlyn Wu
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -10,7 +10,7 @@ first_name: Fanyi
 last_name: Wu
 
 # Pronouns (optional)
-pronouns: She/her
+pronouns: She/Her
 
 # Status emoji
 status:
@@ -23,67 +23,62 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Student in Decision Making for Complex Systems CDT
+role: Senior AI Research Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of Manchester
-    url: https://www.linkedin.com/company/ukri-ai-decisions-cdt/posts/?feedView=all
+  - name: Meta AI
+    url: https://ai.meta.com/
+
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:fanyi.kaitlyn.wu@outlook.com'
+    url: 'mailto:alex.johnson@meta.com'
     label: E-mail Me
+  - icon: brands/x
+    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/Fanyi-Kaitlyn-Wu
+    url: https://github.com/alexjohnsonai
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/fanyi-wu-304353218/
+    url: https://www.linkedin.com/in/alexjohnsonai/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=HYinA9MAAAAJ&hl=en&oi=ao
-  # - icon: academicons/orcid
-  #   url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=alexjohnson
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Uncertainty Quantification in ML
-  - Conformal Prediction
-  - AI for Science
-  - Physics
+  - Large Language Models
+  - Computer Vision
+  - Reinforcement Learning
+  - AI Ethics
 
 education:
   - area: PhD Computer Science (AI Focus)
-    institution: University of Manchester
-    date_start: 2024-09-30
-    date_end: 2028-0-30
+    institution: Stanford University
+    date_start: 2015-09-01
+    date_end: 2019-06-30
     summary: |
-      UKRI fully funded scholarship in collaboration with the University of Cambridge. Supervised by Dr Michele Caprio and Professor Samuel Kaski on conformal prediction and probabilistic machine learning in collaboration with Google DeepMind.
-    # button:
-    #   text: 'Read Thesis'
-    #   url: 'https://example.com/thesis.pdf'
-  - area: MPhil Data Intensive Science
-    institution: University of Cambridge
-    date_start: 2023-09-30
-    date_end: 2014-08-31
+      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com/thesis.pdf'
+  - area: MS Computer Science
+    institution: Carnegie Mellon University
+    date_start: 2013-09-01
+    date_end: 2015-05-31
     summary: |
-      GPA: 3.95/4.0
+      GPA: 4.0/4.0
 
-      Thesis: Combinatorial Optimisation – Chaotic Amplitude Control for the Ising Minimisation Using Optical Parametric Oscillator System (Distinction).
-      
-      Relevant Modules: Advanced Research Computing, Application of Machine Learning, Deep Learning and Neural Networks, Statistics for Data Science.
-      
-      Student Representative for the Cohort.
-  - area: BSc Physics
-    institution: Imperial College London
-    date_start: 2020-09-30
-    date_end: 2023-07-31
+      Specialized in machine learning and robotics.
+  - area: BS Computer Science
+    institution: MIT
+    date_start: 2009-09-01
+    date_end: 2013-05-31
     summary: |
-      GPA: 3.7/4.0
+      GPA: 3.9/4.0
 
-      Relevant modules: Computational and experimental Physics, Mechanics and Relativity, Oscillation and Waves, Electrostatic and Magnetism, Statistics, Advanced Mathematics, Thermal Dynamics and Structure of Matters, Quantum Mechanics, Particle Physics, Solid State Physics, Informational Theory.
-
-      Full marks for individual Python project in Year 1 Practical Physics Module
-
-      Demonstrated good writing, collaborating, organisational and time-management skills through individual lab reports and group assignments. 
+      Minored in Mathematics. President of AI Club.
 
 work:
   - position: Senior AI Research Scientist
@@ -92,7 +87,7 @@ work:
     company_logo: ''
     date_start: 2020-01-01
     date_end: ''
-    summary: |
+    summary: |2-
       Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
   - position: AI Research Intern
     company_name: OpenAI
@@ -110,15 +105,15 @@ skills:
     items:
       - name: Python & PyTorch
         description: ''
-        # percent: 95
+        percent: 95
         icon: code-bracket
       - name: Machine Learning
         description: ''
-        # percent: 
+        percent: 100
         icon: chart-bar
-      - name: General Physics, Mathematics, Statistics
+      - name: Cloud Computing (AWS/GCP)
         description: ''
-        # percent: 85
+        percent: 85
         icon: cloud
   - name: Hobbies
     color: '#eeac02'
@@ -139,46 +134,36 @@ skills:
 
 languages:
   - name: English
-    percent: 90
-  - name: Chinese 
     percent: 100
+  - name: Spanish
+    percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Turing Scheme Award
-    url: https://www.gov.uk/guidance/turing-scheme-apply-for-funding-for-international-placements
-    date: '2025-01-15'
-    awarder: UK Gov
-    icon: hero/currency-pounds
-    summary: |
-      Fully funded by UK government for international exchange placement to Finland Aalto University in Helsinki. Explore Bayesian integrated Conformal Prediction.
-  - title: CVPR Embodied AI Workshop PRS Challenge
-    url: https://cvpr.thecvf.com/
-    date: '2024-04-15'
-    awarder: CVPR
+  - title: Best Paper Award
+    url: https://neurips.cc/
+    date: '2022-12-01'
+    awarder: NeurIPS
     icon: hero/trophy
     summary: |
-      Ranked top2 in this challenge.
-      Integrating visual, textual, and sensory inputs to process complex instructions and environmental data into language models.
-      We activate mixture of experts mechanism by utilising MoE Transformer encoder, which proves enhanced robustness in actions of AI agents.
-  - title: BPhO Global Gold Prize
-    url: https://www.bpho.org.uk/
-    date: '2019-01-30'
-    awarder: British Physics Olympiad
+      Awarded for groundbreaking work on efficient training of large models.
+  - title: AI Innovation Grant
+    url: https://www.nsf.gov/
+    date: '2021-06-15'
+    awarder: National Science Foundation
+    icon: hero/currency-dollar
+    summary: |
+      $500,000 grant for research in ethical AI development.
+  - title: Outstanding PhD Thesis
+    url: https://www.stanford.edu/
+    date: '2019-06-30'
+    awarder: Stanford University
     icon: hero/academic-cap
     summary: |
-      Global Gold Prize, ranking top 10 in China
+      Recognized for contributions to scaling laws in deep learning.
 ---
 
-Hello! Welcome! 👋
-
-I am an AI PhD student in Decision Making in Complex Systems CDT led by University of Manchester and University of Cambridge, fully funded by [UK Research and Innovation](https://www.ukri.org/). I am supervised by [Dr Michele Caprio](https://michelecaprio.wixsite.com/caprio) and [Prof Samuel Kaski](https://kaski-lab.com/).
-
-My current research interest is in AI for Science and uncertainty quantification. Specifically, I am studying Conformal Prediction (CP) and its relationship with other fields (such as Baysian infused CP, CP in medical diagonotics, CP in Astrophyics, etc). I enjoy very much on interdisplinary research and developing theoretical extensions on CP.
-
-My previous backgrounds were in Bsc Physics department at [Imperial College London](https://www.imperial.ac.uk/) and MPhil in Data Intensive Science at DAMTP, [University of Cambridge](https://www.cam.ac.uk/). My bachelor thesis was about Single Photon Pairs Generation and Detection supervised [Dr Stefano Vezzoli](https://profiles.imperial.ac.uk/s.vezzoli) in [Complex Nanophotonics Group](https://www.sapienzalab.org/). My master thesis was about Combinatorial Optimisation in Ising Machine Using Optical Parametric Oscillatior System, supervised by [Prof Natalia Berloff](https://www.pi-computing.org/team).
-
-I am also open to industrial experiences and visiting interdisplinary reasearch groups. 
+Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
