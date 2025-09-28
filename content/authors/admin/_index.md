@@ -142,36 +142,38 @@ skills:
 
 languages:
   - name: English
-    percent: 100
-  - name: Spanish
-    percent: 50
+    percent: 90
+  - name: Chinese
+    percent: 99
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: Turing Scheme Award
+    url: https://www.gov.uk/guidance/turing-scheme-apply-for-funding-for-international-placements
+    date: '2025-01-15'
+    awarder: UK Gov
+    icon: hero/currency-pounds
+    summary: |
+      Fully funded by UK government for international exchange placement to Finland Aalto University in Helsinki. Explore Bayesian integrated Conformal Prediction.
+  - title: CVPR Embodied AI Workshop PRS Challenge
+    url: https://cvpr.thecvf.com/
+    date: '2024-04-15'
+    awarder: CVPR
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+      Ranked top2 in this challenge.
+      Integrating visual, textual, and sensory inputs to process complex instructions and environmental data into language models.
+      We activate mixture of experts mechanism by utilising MoE Transformer encoder, which proves enhanced robustness in actions of AI agents.
+  - title: BPhO Global Gold Prize
+    url: https://www.bpho.org.uk/
+    date: '2019-01-30'
+    awarder: British Physics Olympiad
     icon: hero/academic-cap
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Global Gold Prize, ranking top 10 in China
 ---
 
 Hello! Welcome! 👋
