@@ -6,7 +6,7 @@ title: THCM-CAL Temporal-Hierarchical Causal Modelling with Conformal Calibratio
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Zhang, Xin 
-  - and Wei, Qiyu 
+  - Wei, Qiyu 
   - Zhu, Yingjie 
   - admin
   - Ananiadou, Sophia
@@ -16,10 +16,8 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2025-06-2122:43:42 UTC'
-
-# Schedule page publish date (NOT publication's date).
-publishDate: '2025-06-2122:43:42 UTC'
+date: '2025-06-21 22:43:42 UTC'
+publishDate: '2025-06-21 22:43:42 UTC'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
