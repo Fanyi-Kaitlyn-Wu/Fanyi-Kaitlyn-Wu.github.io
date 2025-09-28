@@ -34,9 +34,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        We examine Bayesian infused Conformal Prediction (BCP), which merges Bayesian and frequentist methods by using the posterior predictive distribution for the analysis at hand as a non-conformity score in Conformal Prediction (CP).
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        CP constructs prediction regions with guaranteed marginal coverage properties without distributional assumptions besides exchangeability. These regions contain the true outcome with a pre-specified probability (1-α). Bayesian prediction provides well-calibrated uncertainty when the assumed model is correct but may exhibit poor coverage under model misspecification (M-open perspective). 
+
+        Our research aims to develop enhanced methodologies that leverage both paradigms' strengths: incorporating structured prior information from Bayesian statistics while preserving the coverage guarantees of conformal prediction. We also would like to implement variants of CP in different real-world challeges (Physics, Chemistry, Medical diagnotics etc).
 
         Please reach out to collaborate 😃
     design:
@@ -62,15 +64,15 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - events
+  #   design:
+  #     view: card
   - block: collection
     id: news
     content:
