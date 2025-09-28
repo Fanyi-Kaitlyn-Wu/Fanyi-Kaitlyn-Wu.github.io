@@ -130,7 +130,7 @@ skills:
       - name: Painting
         description: ''
         percent: 80
-        icon: Pen
+        icon: pen-to-square
       - name: MOBA Game Player
         description: ''
         percent: 90
