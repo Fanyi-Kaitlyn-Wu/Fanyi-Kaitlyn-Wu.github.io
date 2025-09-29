@@ -35,7 +35,8 @@ tags:
   - metamaterials
   - nonlinearity
   - space-time
-featured: false
+
+featured: True
 
 hugoblox:
   ids:
