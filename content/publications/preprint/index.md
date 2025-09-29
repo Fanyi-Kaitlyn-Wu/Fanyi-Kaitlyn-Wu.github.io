@@ -26,7 +26,7 @@ tags:
 - Conformal Prediction
 - Bayesian statistics
 
-featured: true
+featured: False
 
 # hugoblox:
 #   ids:
