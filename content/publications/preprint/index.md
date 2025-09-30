@@ -2,6 +2,7 @@
 title: "Bayesian Infused Conformal Prediction"
 authors:
 - admin
+- Michele Caprio
 date: "2025-09-29T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
