@@ -1,7 +1,9 @@
 ---
-title: "Bayesian Infused Conformal Prediction"
+title: "Bayesian Conformal Prediction as a Decision Risk Problem"
 authors:
 - admin
+- Veronika Lohmanova
+- Samuel Kaski
 - Michele Caprio
 date: "2025-09-29T00:00:00Z"
 
@@ -17,7 +19,7 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: We present a unified Bayesian decision-theoretic framework for conformal prediction (CP) that integrates Bayesian posterior predictive scores with risk minimization via Bayesian quadrature (BQ). This approach, named BQ-optimised Bayesian-infused Conformal Prediction (BCP), rewrites CP as a decision risk problem and uses Bayesian posterior predictive as non-conformity score. On sparse regression with the diabetes dataset, under prior misspecification, BCP corrects the prediction set to have 81.1 percent coverage, while traditional Bayesian credible intervals drop to 59.4 percent.  BQ-optimised BCP also achieves narrower intervals than traditional CP methods while maintaining the same coverage. In breast cancer classification, BCP matches classical CP with 81.2 percent coverage, and BQ optimization reduces the set size from 0.919 to 0.889. These results show that our framework provides sharper and more efficient prediction sets without sacrificing validity, offering a principled approach to uncertainty quantification in high-stakes applications.
+abstract: We propose an optimised Bayesian Conformal Prediction (BCP) framework that selects the conformal threshold via a decision-theoretic risk minimisation criterion. BCP uses Bayesian posterior predictive densities as non-conformity scores and Bayesian quadrature to estimate and minimise the expected prediction set size. Operating within a split conformal framework, BCP provides valid coverage guarantees and demonstrates reliable empirical coverage under model misspecification. Across regression and classification tasks, including distribution-shifted settings such as ImageNet-A, BCP yields prediction sets of comparable size to split conformal prediction, while exhibiting substantially lower run-to-run variability in set size. In sparse regression with nominal coverage of 80 percent, BCP achieves 81 percent empirical coverage under a misspecified prior, whereas Bayesian credible intervals under-cover at 49 percent.
 
 # Summary. An optional shortened abstract.
 summary: We present a unified Bayesian decision-theoretic framework for conformal prediction (CP) that integrates Bayesian posterior predictive scores with risk minimization via Bayesian quadrature (BQ).
@@ -27,7 +29,7 @@ tags:
 - Conformal Prediction
 - Bayesian statistics
 
-featured: False
+featured: True
 
 # hugoblox:
 #   ids:
@@ -44,7 +46,7 @@ links:
 # - type: dataset
 #   url: "#"
 - type: poster
-  url: Poster_Fanyi_Wu.pdf
+  url: Poster_WUML_2026.pdf
 # - type: source
 #   url: "#"
 # - type: video
