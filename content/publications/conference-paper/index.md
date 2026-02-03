@@ -40,7 +40,7 @@ tags:
   - Artificial Intelligence 
 
 # Display this page in the Featured widget?
-featured: False
+featured: True
 
 # Standard identifiers for auto-linking
 hugoblox:
