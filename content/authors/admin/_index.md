@@ -151,6 +151,13 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: Junior Researcher Award for International Society for Bayesian Analysis
+    url: https://isba2026.github.io/
+    date: '2026-04-29'
+    awarder: Bocconi University
+    icon: hero/currency-dollar
+    summary: |
+      The ISBA Program Council has selected me for a junior researcher travel award in support of the attendance at the 2026 ISBA World Meeting in Nagoya.
   - title: Turing Scheme Award
     url: https://www.gov.uk/guidance/turing-scheme-apply-for-funding-for-international-placements
     date: '2025-01-15'
