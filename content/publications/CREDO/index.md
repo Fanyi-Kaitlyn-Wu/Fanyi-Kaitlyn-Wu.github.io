@@ -54,7 +54,7 @@ tags:
 - Machine Learning
 - Conformal Prediction
 
-featured: true
+featured: false
 
 # hugoblox:
 #   ids:
