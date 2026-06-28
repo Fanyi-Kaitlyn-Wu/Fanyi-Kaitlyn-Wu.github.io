@@ -1,20 +1,22 @@
 ---
-title: "Decoupled Conformal Optimisation: Efficient Prediction Sets via Independent Tuning and Calibration"
+title: "CREDO: Epistemic-Aware Conformalized Credal Envelopes for Regression"
 authors:
+- Luben M. C. Cabezas
+- Sabina J. Sloman
+- Bruno M. Resende
 - admin
-- Lihua Niu
-- Samuel Kaski
 - Michele Caprio
-date: "2026-05-18T00:00:00Z"
+- Rafael Izbicki
+date: "2026-05-06T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-05-18T00:00:00Z"
+publishDate: "2026-05-06T00:00:00Z"
 
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: "ICML EIML Workshop 2026"
-publication_short: "ICML EIML Workshop 2026"
+publication: "ArXiv Preprint"
+publication_short: "ArXiv Preprint"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
@@ -25,34 +27,14 @@ publication_short: "ICML EIML Workshop 2026"
 # publication_short: ""
 
 abstract: >-
-  Bayesian conformal optimisation methods often use the same held-out data both
-  to search for efficient prediction sets and to certify coverage or risk. This
-  coupling is natural for high-probability risk-control guarantees, but it is
-  not necessary when the target is standard finite-sample marginal conformal
-  coverage. We propose Decoupled Conformal Optimisation (DCO), a
-  train-tune-calibrate design principle that uses an independent tuning split
-  for efficiency-oriented structural selection and a fresh calibration split for
-  the final conformal quantile. Conditional on the tuned structure, standard
-  split-conformal exchangeability yields finite-sample marginal coverage for any
-  candidate class, without a confidence parameter or multiple-testing
-  correction. DCO therefore targets a different finite-sample guarantee from
-  PAC-style methods: marginal conformal coverage rather than high-probability
-  risk control. Under consistency assumptions on the coupled risk bound, the two
-  approaches nevertheless converge to the same population threshold. Across
-  classification and regression benchmarks, including ImageNet-A, CIFAR-100,
-  Diabetes, California Housing, and Concrete, DCO tracks the nominal coverage
-  level closely while often reducing average prediction-set size or interval
-  width relative to PAC-style calibration. On ImageNet-A, for example, the
-  average set size decreases from 26.52 to 25.26 and the 95th-percentile set size
-  from 58.95 to 53.73; on Diabetes, the average interval width decreases from
-  2.098 to 1.914.
+  Conformal prediction delivers prediction intervals with distribution-free coverage, but its intervals can look overconfident in regions where the model is extrapolating, because standard conformal scores do not explicitly represent epistemic uncertainty. Credal methods, by contrast, make epistemic effects visible by working with sets of plausible predictive distributions, but they are typically model-based and lack calibration guarantees. We introduce CREDO, a simple "credal-then-conformalize" recipe that combines both strengths. CREDO first builds an interpretable credal envelope that widens when local evidence is weak, then applies split conformal calibration on top of this envelope to guarantee marginal coverage without further assumptions. This separation of roles yields prediction intervals that are interpretable: their width can be decomposed into aleatoric noise, epistemic inflation, and a distribution-free calibration slack. We provide a fast implementation based on trimming extreme posterior predictive endpoints, prove validity, and show on benchmark regressions that CREDO maintains target coverage while improving sparsity adaptivity at competitive efficiency.
 
 # Summary. An optional shortened abstract.
 summary: We show that optimisation and calibration can be decoupled for Conformal Prediction while maintaining valid marginal coverage guarantee.
 
 tags:
-- Machine Learning
 - Conformal Prediction
+- Credal sets
 
 featured: false
 
@@ -63,7 +45,7 @@ featured: false
 links:
 - type: preprint
   provider: arxiv
-  id: 2605.18354v1
+  id: 2603.06826v1
 
 # - type: code
 #   url: https://github.com/HugoBlox/hugo-blox-builder
@@ -71,8 +53,8 @@ links:
 #   url: B2CP_Fanyi.pdf
 # - type: dataset
 #   url: "#"
-- type: poster
-  url: DCO_eiml.pdf
+# - type: poster
+#   url: DCO_eiml.pdf
 # - type: source
 #   url: "#"
 # - type: video
@@ -83,10 +65,10 @@ links:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Classification results on ImageNet-A over 50 random splits. (a) Mean prediction set size. (b) Set size distributions. (c) Empirical coverage; dashed line marks 1 − α = 0.8. (d) P95 set size distributions.'
-  focal_point: ""
-  preview_only: false
+# image:
+#   caption: 'Classification results on ImageNet-A over 50 random splits. (a) Mean prediction set size. (b) Set size distributions. (c) Empirical coverage; dashed line marks 1 − α = 0.8. (d) P95 set size distributions.'
+#   focal_point: ""
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
